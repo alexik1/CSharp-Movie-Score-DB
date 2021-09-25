@@ -5,7 +5,7 @@ Olá, novamente.
 
 API sobre o ABP trabalhará com um mySQL externo. Então, pode testar abertamente.
 
-As requisições estão como Filme, Espectador e Relacional.
+As requisições estão como Filme, Espectador e Relacional, via o próprio Swagger.
 
 CRUD está apto para filmes e espectadores.
 
