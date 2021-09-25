@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>FilmesAPI</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FilmesAPI.Application.Contracts\FilmesAPI.Application.Contracts.csproj" />
+    <ProjectReference Include="..\FilmesAPI.EntityFrameworkCore\FilmesAPI.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Volo.Abp.Account.HttpApi" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.Identity.HttpApi" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.TenantManagement.HttpApi" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.SettingManagement.HttpApi" Version="4.4.2" />
+  </ItemGroup>
+
+</Project>
